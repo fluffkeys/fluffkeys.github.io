@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-start; /* Align items to the start (left) */
+    align-items: flex-end; /* Align items to the bottom */
+    height: 100vh; /* Full viewport height to allow for varying image sizes */
+    position: relative;
+    overflow: hidden; /* Ensure overflow is hidden to prevent horizontal scrolling */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    position: absolute; /* Position the image absolutely within the container */
+    left: 0; /* Align the left edge of the image to the left edge of the container */
+    bottom: 0; /* Align the bottom of the image to the bottom of the container */
+}
+
+
+
+
+
