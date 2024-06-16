@@ -12,21 +12,12 @@ body {
     overflow: hidden; /* Ensure overflow is hidden to prevent horizontal scrolling */
 }
 
-img {
+.image-container img {
+    max-width: none; /* Disable maximum width */
+    width: auto; /* Allow image width to adjust freely */
+    height: auto;
     position: absolute; /* Position the image absolutely within the container */
     left: 0; /* Align the left edge of the image to the left edge of the container */
     bottom: 0; /* Align the bottom of the image to the bottom of the container */
 }
-
-
-.image-1-4 {
-    width: 150px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.image-5-10 {
-    width: 270px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-}
-
 
